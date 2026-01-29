@@ -1,0 +1,17 @@
+.highlight {
+  background-color: #ffe6f0;
+  color: #ff69b4;
+  padding: 10px;
+  border-radius: 10px;
+}
+.hidden {
+  display: none;
+}
+.fade {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.fade.show {
+  opacity: 1;
+}

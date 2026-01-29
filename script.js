@@ -1,4 +1,3 @@
-
 console.log("Script loaded successfully.");
 console.log("hi , my name is Rehema Wambui,i am 21 years old and i am studying software engineering.");
 const yourName = "Rehema Wambui";
@@ -106,7 +105,7 @@ button1.addEventListener("click", function() {
 
 
 
-const button = document.getElementById("btn");
+const button  = document.getElementById("btn");
 const inputField = document.getElementById("nameInput");
 const displayText = document.getElementById("text");
 button.addEventListener("click", function() {
@@ -115,4 +114,24 @@ button.addEventListener("click", function() {
    } else {
       displayText.textContent = "Hello, " + inputField.value ; 
    }   
+});
+
+
+const paragraph = document.getElementById("message");
+const buttons = document.getElementById("btn");
+buttons.addEventListener("click", function() {
+    paragraph.classList.toggle("highlight");
+});
+
+const infoParagraph = document.getElementById("info");
+const toggleButton = document.getElementById("toggleBtn");
+toggleButton.addEventListener("click", function() {
+    infoParagraph.classList.toggle("hidden");
+});
+
+const fadeText = document.getElementById("fadeText");
+const fadeButton = document.getElementById("fadeBtn");
+
+fadeButton.addEventListener("click", function() {
+    fadeText.classList.toggle("show");
 });
