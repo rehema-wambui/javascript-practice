@@ -1,3 +1,4 @@
+
 console.log("Script loaded successfully.");
 console.log("hi , my name is Rehema Wambui,i am 21 years old and i am studying software engineering.");
 const yourName = "Rehema Wambui";
@@ -48,7 +49,6 @@ function yourAge(age) {
 }
 yourAge(20);
 yourAge(16);
-
 
 
 
@@ -104,7 +104,6 @@ button1.addEventListener("click", function() {
 
 
 
-
 const button  = document.getElementById("btn");
 const inputField = document.getElementById("nameInput");
 const displayText = document.getElementById("text");
@@ -135,3 +134,44 @@ const fadeButton = document.getElementById("fadeBtn");
 fadeButton.addEventListener("click", function() {
     fadeText.classList.toggle("show");
 });
+
+
+const languages = ["JavaScript", "Python", "HTML", "CSS"];
+
+for (const lang of languages) {
+  console.log("I enjoy learning " + lang);
+}
+
+
+const paragraphs = document.querySelectorAll('.text-item');
+const button2 = document.getElementById('highlightBtn');
+
+button.addEventListener(c, () => {
+paragraphs.forEach(paragraphs => {
+   paragraphs.classList.toggle('highlight');
+  });
+});
+
+const btn1 = document.querySelector('#menuBtn');
+
+
+btn.addEventListener('click', () => {
+
+  btn.classList.toggle('active');
+});
+
+const button3 = document.querySelector('#menuBtn');
+const menu = document .querySelector('#menu');
+button.addEventListener('click', () => {
+   menu.classList.toggle('active');
+});
+
+   const btn = document.getElementById("toggleBtn");
+
+    btn.addEventListener("click", function() {
+      if (btn.textContent === "Show more") {
+        btn.textContent = "Show less";
+      } else {
+        btn.textContent = "Show more";
+      }
+    });
