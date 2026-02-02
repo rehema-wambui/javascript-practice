@@ -1,42 +1,42 @@
-/* .highlight { */
-/*   background-color: #ffe6f0; */
-/*   color: #ff69b4; */
-/*   padding: 10px; */
-/*   border-radius: 10px; */
-/* } */
-/* .hidden { */
-/*   display: none; */
-/* } */
-/* .fade { */
-/*   opacity: 0; */
-/*   transition: opacity 0.5s ease; */
-/* } */
-/* */ 
-/* .fade.show { */
-/*   opacity: 1; */
-/* } */
-/* */ 
-/* .text-item { */
-/*   transition: background-color 0.4s ease; */
-/* } */
-/* */ 
-/* .highlight { */
-/*   background-color: #ffe6f0; */
-/* } */
-/* Normal state */ 
-/* #menuBtn { */
-/*   padding: 10px 20px; */
-/*   font-size: 16px; */
-/*   transition: all 0.3s ease; */
-/* } */
-/* */ 
-/* Active state */ 
-/* #menuBtn.active { */
-/*   color: white; */
-/*   background-color: #0077cc; */
-/*   transform: scale(1.1); */
-/*   text-decoration: underline; */
-/* }
+/*.highlight {
+  background-color: #ffe6f0;
+  color: #ff69b4;
+  padding: 10px;
+  border-radius: 10px;
+}
+.hidden {
+  display: none;
+}
+.fade {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.fade.show {
+  opacity: 1;
+}
+
+.text-item {
+  transition: background-color 0.4s ease;
+}
+
+.highlight {
+  background-color: #ffe6f0;
+}
+
+#menuBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+#menuBtn.active {
+  color: white;
+  background-color: #0077cc;
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+
 .menu {
   display: none;
 }
@@ -44,6 +44,50 @@
 .menu.active {
   display: block;
 }
- */
 
- 
+.highlight {
+  background-color: #ffe6f0;
+  color: #ff69b4;
+  padding: 10px;
+  border-radius: 10px;
+}
+.hidden {
+  display: none;
+}
+.fade {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.fade.show {
+  opacity: 1;
+}
+
+.text-item {
+  transition: background-color 0.4s ease;
+}
+
+.highlight {
+  background-color: #ffe6f0;
+}
+
+#menuBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+#menuBtn.active {
+  color: white;
+  background-color: #0077cc;
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+
+.menu {
+  display: none;
+}
+
+ .menu.active {
+  display: block;
+} */
