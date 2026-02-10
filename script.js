@@ -175,3 +175,17 @@ button.addEventListener('click', () => {
         btn.textContent = "Show more";
       }
     });
+    const mySkills = ["HTML", "CSS", "JavaScript", "Python", "GitHub"];
+
+    mySkills.forEach(skill => {
+    console.log("I know " + skill);
+    });
+    const me = {
+    name: "Rehema Wambui",
+    course: "ICT Technician",
+    goal: "Become a skilled IT professional"
+    };
+
+    console.log("Name:", me.name);
+    console.log("Course:", me.course);
+    console.log("Goal:", me.goal);
